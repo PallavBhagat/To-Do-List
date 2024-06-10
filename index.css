@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#container{
+    height: 100%;
+    background: linear-gradient(135deg,rgb(87, 19, 150),rgb(120, 59, 69));
+    min-height: 100vh;
+    padding: 10px;
+
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    text-align: center;
+    color: black;
+    
+}
+
+
+.row{
+    padding: 20px ;
+    
+    
+}
+
+.row input{
+    height: 30px;
+    border-radius: 10px;
+    width: 400px;
+    font-weight: 14px;
+    background: transparent;
+
+}
+
+.row button{
+    height: 30px;
+    border-radius: 10px;
+    width: 70px;
+    background-color: rgb(161, 47, 6);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 20px 5px 8px 50px;
+    user-select: none;
+}
+
+ul li span{
+    border-radius: 50%;
+    margin-left: 300px;
+    position: absolute;
+}
+
+
+ul li span:hover{
+    background: #edeeed;
+
+}
+
+
+
